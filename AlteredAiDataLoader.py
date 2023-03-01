@@ -2,7 +2,6 @@ from numpy import load
 import boto3
 import numpy as np
 from .utilities import LoadFile
-
 class AlteredAiDataLoader:
     
     def __init__(self,access_key_id,secret_access_key,dataKey):
